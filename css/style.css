@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../fonts/Poppins-Italic.ttf');
+
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #2b947e, #0fa656);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input,
+.submit {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    background-color: lightgray;
+    width: 300px;
+
+}
+
+.center {
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    top: -50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.top {
+    padding: 70px;
+    margin: auto;
+    left: -10;
+
+}
